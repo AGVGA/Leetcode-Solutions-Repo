@@ -1,2 +1,2 @@
-# Leetcode-#69-solution
-Easiest solution for Leetcode problem 69 using C language.
+# Leetcode-Solutions
+I try to to put the easiest solutions for Leetcode problems here.
