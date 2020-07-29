@@ -1,4 +1,4 @@
-### Problem 69
+//Problem 69
 
 int i;
 int mySqrt(int x){
