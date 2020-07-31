@@ -2,8 +2,9 @@
 //Function written in C language
 //All given testcases passed
 
-int i;
-int mySqrt(int x){
-    i = sqrt(x);
+int mySqrt(int x)
+{
+    int i;
+    i=sqrt(x);
     return i;
 }
