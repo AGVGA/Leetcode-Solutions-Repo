@@ -1,6 +1,6 @@
 /*Problem 9
 Function written in C language
-All given testcases passed*/
+All testcases passed*/
 
 bool isPalindrome(int x)
 {
