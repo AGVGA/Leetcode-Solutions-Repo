@@ -1,6 +1,6 @@
 /*Problem 69
 Function written in C language
-All given testcases passed*/
+All testcases passed*/
 
 int mySqrt(int x)
 {
