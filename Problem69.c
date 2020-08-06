@@ -1,4 +1,4 @@
-/* Problem 69
+/*! Problem 69
 Function written in C language
 All testcases passed */
 
