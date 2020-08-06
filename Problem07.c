@@ -1,4 +1,4 @@
-/* Problem 7
+/*! Problem 7
 Function written in C language
 All testcases passed */
 
