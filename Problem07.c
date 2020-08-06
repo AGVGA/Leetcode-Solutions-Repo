@@ -1,5 +1,6 @@
-
-
+/* Problem 7
+Function written in C language
+All testcases passed */
 
 int reverse(int x)
 {
