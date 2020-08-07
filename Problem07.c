@@ -7,7 +7,7 @@ int reverse(int x)
     int rem, y = 0;
     bool isPos = true;
     
-    /* If x is negative, find the absolute value */
+    /** If x is negative, find the absolute value **/
     if(x < 0)
     {
         if(x != INT_MIN)
@@ -15,19 +15,19 @@ int reverse(int x)
             x = abs(x);
             isPos = false;
         }
-        /* Overflow condition */ 
+        /** Overflow condition **/ 
         else
         {
             return 0;
         }
     }
     
-    /* Extract the remainder until input is exhausted */
+    /** Extract the remainder until input is exhausted **/
     for( ;x > 0;x /= 10)
     {
         rem = x % 10;
         
-        /* Check for overflow */
+        /** Check for overflow **/
         if(((INT_MAX / 10) < y) || 
            (((INT_MAX / 10) == y) && rem > 7))
             return 0;
