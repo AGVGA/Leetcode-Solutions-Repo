@@ -10,7 +10,8 @@ bool isPowerOfFour(int num)
         return false;
     }
     
-    /** Divide input with four until remainder is zero **/
+    /** Divide input with four until remainder 
+        is zero **/
     for( ; num % 4 == 0;  )
     {
         /** Update input with it's quotient **/
