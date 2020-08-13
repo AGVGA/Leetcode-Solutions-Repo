@@ -10,7 +10,8 @@ bool isPowerOfThree(int n)
         return false;
     }
     
-    /** Divide input with three until remainder is zero **/
+    /** Divide input with three until remainder
+        is zero **/
     for( ; n % 3 == 0;  )
     {
         /** Update input with it's quotient **/
